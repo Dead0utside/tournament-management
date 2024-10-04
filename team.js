@@ -2,6 +2,6 @@
 class Team() {
     constructor(name) {
         this.name = name;
-        this.teamScore;
+        this.teamScore = 0;
     }
 }
