@@ -1,0 +1,19 @@
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #beb9a4;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+th, tbody tr td:first-child{
+    background-color: #b1cdd5;
+}
+

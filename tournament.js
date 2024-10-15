@@ -1,3 +1,25 @@
+
+
+/*const createrOW=()=>{
+    const table=document.getElementById("round-robin")
+    const row=document.createElement("tr")
+    const cell1=document.createElement("td")
+    const cell2=document.createElement("td")
+    const cell3=document.createElement("td")
+    const cell4=document.createElement("td")
+    cell1.innerHTML="Team 10"
+    cell2.innerHTML="Team 2"
+    cell3.innerHTML="Team 3"
+    cell4.innerHTML="Team 4"
+    row.appendChild(cell1)
+    row.appendChild(cell2)
+    row.appendChild(cell3)
+    row.appendChild(cell4)
+    table.appendChild(row)
+
+} 
+createrOW()*/
+
 class Tournament {
     constructor(name, gameType) {
         this.name = name;
@@ -34,3 +56,7 @@ class Tournament {
         }
     }
 }
+
+
+
+
