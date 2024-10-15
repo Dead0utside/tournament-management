@@ -3,9 +3,9 @@ class Team {
     constructor(name) {
         this.name = name;
         this.teamScore = 0;
-        this.members = [];
+        // this.members = [];
     }
-    registerPlayer() {
-       this.members = this.members.push(new Player)
-    }
+    // registerPlayer() {
+    //    this.members = this.members.push(new Player)
+    // }
 }
